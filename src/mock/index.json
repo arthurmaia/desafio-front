@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Arthur",
+      "last_name": "Maia",
+      "participation": 10,
+      "color": "#7dc879"
+    },
+    {
+      "id": 2,
+      "first_name": "Luis",
+      "last_name": "Humberto",
+      "participation": 40,
+      "color": "#382bfa"
+    },
+    {
+      "id": 3,
+      "first_name": "Carlos",
+      "last_name": "Moura",
+      "participation": 5,
+      "color": "#ea00e8"
+    },
+    {
+      "id": 4,
+      "first_name": "Fernanda",
+      "last_name": "Oliveira",
+      "participation": 15,
+      "color": "#9ed2a0"
+    },
+    {
+      "id": 5,
+      "first_name": "Hugo",
+      "last_name": "Silva",
+      "participation": 20,
+      "color": "#9474b3"
+    }
+  ]
+}

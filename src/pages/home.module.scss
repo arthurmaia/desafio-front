@@ -1,0 +1,82 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #02b8e2;
+  padding: 2rem;
+
+  input {
+    border: none;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  .headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.bodyContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0;
+
+  .title {
+    margin: 1.5rem 0;
+  }
+
+  .subTitle {
+    font-size: 1.2rem;
+  }
+
+  .bodyContent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .employeesTableContainer {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-right: 6rem;
+
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      border-spacing: 0;
+      padding: 0.8rem;
+    }
+
+    .customTableHeader {
+      width: 15rem;
+      text-align: left;
+    }
+
+    .employeeTableRow {
+      td:last-child {
+        text-align: center;
+      }
+    }
+  }
+
+  .chartContainer {
+    width: 25rem;
+    height: 25rem;
+  }
+}

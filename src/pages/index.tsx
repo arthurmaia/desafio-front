@@ -57,7 +57,8 @@ export default function Home() {
       );
 
       setEmployees((prev) => [...prev, data]);
-    } catch {
+    } catch (err) {
+      alert(err.response?.data?.message || "Houve um erro!");
     } finally {
       setPostLoading(false);
     }
